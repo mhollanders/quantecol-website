@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Services",
+    "section": "",
+    "text": "Methodological guidance\nConsultations about study design\nValidation of statistical analysis\nTutorials and workshops for specific statistical methods\nCollaboration on research projects\nData and output visualisation\n\nWe prefer to take a Bayesian approach because of the flexibility in building custom models, straightforward quantification of uncertainty, and to incorporate domain expertise when it is available. Our capabilities include, but are not limited to, the following statistical models:\n\n(Generalised) linear models\nPower analysis\nMultivariate analysis\nDose-response models\nOrdinal regression\nItem-response models\nEcological models\n\nMark-recapture\nMultievent\n(Dynamic) occupancy, including co-occurrence\n(Dynamic) N/multinomial-mixture\nSpatial mark-recapture"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Quantecol",
+    "section": "",
+    "text": "For inquiries about support with your projects, please get in touch here or call us at 0456659313."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quantecol",
+    "section": "",
+    "text": "Study design and methodology\nData forms the foundation of scientific studies, but not all data are created equal. Statistical models make non-trivial assumptions about how the data were collected, which will influence the validity of your conclusions. We can provide you with study designs tailored to your system, including sample sizes, surveying schemes, and more.\n\n\nData analysis\nYour datasets often contain a wealth of information, but bespoke models are frequently required to reveal these signals. We can help you with this process, ranging from tutorials and workshops for applying statistical methodology, to conducting the entire analysis for you in a clear, collaborative fashion.\n\n\n\nVisualisation and reporting\nCommunication of key results derived from our data is what advances scientific fields, but we are experiencing a replication crisis. We believe that honest reporting involves a proper display of uncertainty and does not hide the raw data. The services we offer are predicated on transparency and scientific integrity."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "People\n\n\n\nMatthijs Hollanders\nMatthijs received Bachelor and Master’s degrees in Biology from Wageningen University & Research, The Netherlands. A passion for quantitative methods was sparked during his PhD at Southern Cross University, Australia, where he investigated contemporary amphibian responses to the disease chytridiomycosis. Intrigued by the often noisy ecological datasets, he strives to account for uncertainty in datasets to make valid, honest scientific inference."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Matthijs received Bachelor and Master’s degrees in Biology from Wageningen University & Research, the Netherlands. A passion for quantitative methods was sparked during his PhD at Southern Cross University, Australia, where he investigated contemporary amphibian responses to the disease chytridiomycosis."
+  }
+]

@@ -1,19 +1,26 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "quantecol-website"
+  title: "Quantecol"
   navbar:
+    logo: img/logo.png
+    favicon: img/logo.png
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - services.qmd
+      - contact.qmd
+  page-footer: 
+    center: "53 Bentinck Street, Ballina NSW, Australia | ABN: 90 710 874 314"
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 
-editor: visual
+
 

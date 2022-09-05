@@ -1,11 +1,21 @@
 ---
-title: "quantecol-website"
+title: ""
 ---
 
-This is a Quarto website.
+**Quantecol** offers a range of methodological and analytical services for efficient, effective, and honest scientific inference.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### Study design and methodology
 
-```{r}
-1 + 1
-```
+Data forms the foundation of scientific studies, but not all data are created equal. Statistical models make non-trivial assumptions about how the data were collected, which will influence the validity of your conclusions. We can provide you with study designs tailored to your system, including sample sizes, surveying schemes, and more.
+
+### Data analysis
+
+Your datasets often contain a wealth of information, but bespoke models are frequently required to reveal these signals. We can help you with this process, ranging from tutorials and workshops for applying statistical methodology, to conducting the entire analysis for you in a clear, collaborative fashion.
+
+![](img/code.png)
+
+### Visualisation and reporting
+
+Communication of key results derived from our data is what advances scientific fields, but we are experiencing a replication crisis. We believe that honest reporting involves a proper display of uncertainty and does not hide the raw data. The services we offer are predicated on transparency and scientific integrity.
+
+![](img/fig-kaplam.jpg)

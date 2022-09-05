@@ -1,0 +1,27 @@
+---
+title: Services
+---
+
+We provide custom services tailored to the requirements of the client. This ranges from as simple as a brief consultation about methodology or analysis, to a report containing full data analysis, code, and results. What we offer is:
+
+  - Methodological guidance
+  - Consultations about study design
+  - Validation of statistical analysis
+  - Tutorials and workshops for specific statistical methods
+  - Collaboration on research projects
+  - Data and output visualisation
+  
+We prefer to take a Bayesian approach because of the flexibility in building custom models, straightforward quantification of uncertainty, and to incorporate domain expertise when it is available. Our capabilities include, but are not limited to, the following statistical models:
+
+  - (Generalised) linear models
+  - Power analysis
+  - Multivariate analysis
+  - Dose-response models
+  - Ordinal regression
+  - Item-response models
+  - Ecological models
+    - Mark-recapture
+    - Multievent
+    - (Dynamic) occupancy, including co-occurrence
+    - (Dynamic) *N*/multinomial-mixture
+    - Spatial mark-recapture
