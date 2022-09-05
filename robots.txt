@@ -1,0 +1,1 @@
+Sitemap: https://mhollanders.github.io/quantecol-website/sitemap.xml
