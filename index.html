@@ -130,7 +130,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <meta property="og:site-name" content="Quantecol">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -172,6 +172,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfolio" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-portfolio">    
         <li>
+    <a class="dropdown-item" href="./fleayi-adult.html">
+ <span class="dropdown-text">Amphibian disease resistance</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./dmso.html">
  <span class="dropdown-text">Controlling for DMSO</span></a>
   </li>  
@@ -190,22 +194,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#study-design-and-methodology" id="toc-study-design-and-methodology" class="nav-link active" data-scroll-target="#study-design-and-methodology">Study design and methodology</a></li>
-  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis">Data analysis</a></li>
-  <li><a href="#visualisation-and-reporting" id="toc-visualisation-and-reporting" class="nav-link" data-scroll-target="#visualisation-and-reporting">Visualisation and reporting</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
+<section id="what-we-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-do">What We do</h2>
 <p><strong>Quantecol</strong> offers a range of methodological and analytical <a href="./services.html">services</a> for efficient, effective, and honest scientific inference.</p>
 <section id="study-design-and-methodology" class="level3">
 <h3 class="anchored" data-anchor-id="study-design-and-methodology">Study design and methodology</h3>
@@ -218,24 +214,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mouthpart loss status</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">logit</span>(lambda[i]) <span class="ot">&lt;-</span> <span class="fu">logit</span>(lambda.alpha) <span class="sc">+</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                    lambda.w[<span class="dv">1</span>] <span class="sc">*</span> lambda.beta[<span class="dv">1</span>] <span class="sc">*</span> z[i] <span class="sc">+</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                    lambda.w[<span class="dv">2</span>] <span class="sc">*</span> lambda.beta[<span class="dv">2</span>] <span class="sc">*</span> z[i] <span class="sc">*</span> (m[i] <span class="sc">-</span> mu.alpha) <span class="sc">/</span> (<span class="dv">2</span> <span class="sc">*</span> <span class="fu">exp</span>(mu.sigma[<span class="dv">1</span>])) <span class="sc">+</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                    eps.t[<span class="dv">2</span>,<span class="dv">1</span>,survey[i]]</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>w[i] <span class="sc">~</span> <span class="fu">dbern</span>(lambda[i])</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Mouthpart loss intensity</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">logit</span>(kappa[i]) <span class="ot">&lt;-</span> kappa.w[<span class="dv">1</span>] <span class="sc">*</span> kappa.beta[<span class="dv">1</span>] <span class="sc">*</span> z[i] <span class="sc">+</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>                   kappa.w[<span class="dv">2</span>] <span class="sc">*</span> kappa.beta[<span class="dv">2</span>] <span class="sc">*</span> z[i] <span class="sc">*</span> (m[i] <span class="sc">-</span> mu.alpha) <span class="sc">/</span> (<span class="dv">2</span> <span class="sc">*</span> <span class="fu">exp</span>(mu.sigma[<span class="dv">1</span>])) <span class="sc">+</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>                   eps.t[<span class="dv">2</span>,<span class="dv">2</span>,survey[i]]</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>v[i] <span class="sc">~</span> <span class="fu">dcat</span>(kappa[<span class="dv">1</span><span class="sc">:</span>n.score,i])</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Ordered probit probabilities</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>kappa[<span class="dv">1</span>,i] <span class="ot">&lt;-</span> <span class="fu">pnorm</span>(tau[<span class="dv">1</span>], kappa.mu[i])</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (s <span class="cf">in</span> <span class="dv">2</span><span class="sc">:</span>(n.score <span class="sc">-</span> <span class="dv">1</span>)) {</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  kappa[s,i] <span class="ot">&lt;-</span> <span class="fu">pnorm</span>(tau[s], kappa.mu[i]) <span class="sc">-</span> <span class="fu">pnorm</span>(tau[s<span class="dv">-1</span>], kappa.mu[i])</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>kappa[n.score,i] <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="sc">-</span> <span class="fu">pnorm</span>(tau[n.score<span class="dv">-1</span>], kappa.mu[i])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                    lambda.w[<span class="dv">2</span>] <span class="sc">*</span> lambda.beta[<span class="dv">2</span>] <span class="sc">*</span> z[i] <span class="sc">*</span> </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                      (m[i] <span class="sc">-</span> mu.alpha) <span class="sc">/</span> (<span class="dv">2</span> <span class="sc">*</span> <span class="fu">exp</span>(mu.sigma[<span class="dv">1</span>])) <span class="sc">+</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                    eps.t[<span class="dv">2</span>,<span class="dv">1</span>,survey[i]]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>w[i] <span class="sc">~</span> <span class="fu">dbern</span>(lambda[i])</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Mouthpart loss intensity</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">logit</span>(kappa[i]) <span class="ot">&lt;-</span> kappa.w[<span class="dv">1</span>] <span class="sc">*</span> kappa.beta[<span class="dv">1</span>] <span class="sc">*</span> z[i] <span class="sc">+</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>                   kappa.w[<span class="dv">2</span>] <span class="sc">*</span> kappa.beta[<span class="dv">2</span>] <span class="sc">*</span> z[i] <span class="sc">*</span> </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>                     (m[i] <span class="sc">-</span> mu.alpha) <span class="sc">/</span> (<span class="dv">2</span> <span class="sc">*</span> <span class="fu">exp</span>(mu.sigma[<span class="dv">1</span>])) <span class="sc">+</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>                   eps.t[<span class="dv">2</span>,<span class="dv">2</span>,survey[i]]</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>v[i] <span class="sc">~</span> <span class="fu">dcat</span>(kappa[<span class="dv">1</span><span class="sc">:</span>n.score,i])</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Ordered probit probabilities</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>kappa[<span class="dv">1</span>,i] <span class="ot">&lt;-</span> <span class="fu">pnorm</span>(tau[<span class="dv">1</span>], kappa.mu[i])</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (s <span class="cf">in</span> <span class="dv">2</span><span class="sc">:</span>(n.score <span class="sc">-</span> <span class="dv">1</span>)) {</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  kappa[s,i] <span class="ot">&lt;-</span> <span class="fu">pnorm</span>(tau[s], kappa.mu[i]) <span class="sc">-</span> <span class="fu">pnorm</span>(tau[s<span class="dv">-1</span>], kappa.mu[i])</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>kappa[n.score,i] <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="sc">-</span> <span class="fu">pnorm</span>(tau[n.score<span class="dv">-1</span>], kappa.mu[i])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p><img src="img/code.png" class="img-fluid"></p>
 </section>
 <section id="visualisation-and-reporting" class="level3">
 <h3 class="anchored" data-anchor-id="visualisation-and-reporting">Visualisation and reporting</h3>
@@ -243,6 +240,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><img src="img/fig-kaplam.jpg" class="img-fluid"></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
