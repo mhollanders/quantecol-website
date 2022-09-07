@@ -2,9 +2,9 @@
   {
     "objectID": "services.html",
     "href": "services.html",
-    "title": "Services",
+    "title": "Quantecol",
     "section": "",
-    "text": "Methodological guidance\nConsultations about study design\nValidation of statistical analysis\nTutorials and workshops for specific statistical methods\nCollaboration on research projects\nData and output visualisation\n\nWe prefer to take a Bayesian approach because of the flexibility in building custom models, straightforward quantification of uncertainty, and ability to incorporate domain expertise when available. Our capabilities include, but are not limited to, the following statistical models:\n\n(Generalised) linear models\nPower analysis\nMultivariate analysis\nDose-response models\nOrdinal regression\nItem-response models\nEcological models\n\nMark-recapture\nMultievent\n(Dynamic) occupancy, including co-occurrence\n(Dynamic) N/multinomial-mixture\nSpatial mark-recapture\n\n\nIf you are interested in working with Quantecol, please get in touch."
+    "text": "We provide custom services tailored to the requirements of the client. This ranges from brief consultations about methodology or analysis, to conducting full data analyses and scientific reporting. What we offer is:\n\nMethodological guidance\nConsultations about study design\nValidation of statistical analysis\nTutorials and workshops for specific statistical methods\nCollaboration on research projects\nData and output visualisation\n\nWe prefer to take a Bayesian approach because of the flexibility in building custom models, straightforward quantification of uncertainty, and ability to incorporate domain expertise when available. Our capabilities include, but are not limited to, the following statistical models:\n\n(Generalised) linear models\nPower analysis\nMultivariate analysis\nDose-response models\nOrdinal regression\nItem-response models\nEcological models\n\nMark-recapture\nMultievent\n(Dynamic) occupancy, including co-occurrence\n(Dynamic) N/multinomial-mixture\nSpatial mark-recapture\n\n\nIf you are interested in working with Quantecol, please get in touch."
   },
   {
     "objectID": "matthijs.html",
@@ -16,7 +16,7 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Contact",
+    "title": "Quantecol",
     "section": "",
     "text": "For inquiries about support with your projects, please get in touch via e-mail or call us at 0456659313."
   },
@@ -32,7 +32,7 @@
     "href": "vision.html",
     "title": "Quantecol",
     "section": "",
-    "text": "Quantecol is a statistical consulting firm started in 2022 with the vision of providing clients with robust study designs and rigorous data analysis. We understand that every dataset is unique, often requiring custom model configurations to disentangle the signals form the noise. Our view is that ethical scientific behaviour involves honest reporting of uncertainty to buffer against spurious conclusions, while simultaneously extracting as much as possible from our data."
+    "text": "Quantecol is a statistical consulting firm started in 2022 with the vision of providing clients with robust study designs and rigorous data analysis. We understand that every dataset is unique, often requiring custom model configurations to disentangle the signals form the noise. Our view is that ethical scientific behaviour involves honest reporting of uncertainty to buffer against spurious conclusions, while simultaneously extracting as much as possible from our data. Our aim is to work collaboratively with a range of researchers to communicate research output with a high degree of confidence."
   },
   {
     "objectID": "dmso.html",
@@ -58,9 +58,9 @@
   {
     "objectID": "portfolio.html",
     "href": "portfolio.html",
-    "title": "Portfolio",
+    "title": "Quantecol",
     "section": "",
-    "text": "Investigating contemporary responses to chytrid fungus.\n\n\n\n\n\n\nAug 23, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccounting for DMSO in biofilm studies.\n\n\n\n\n\n\nAug 17, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Amphibian disease resistance\n\n\nInvestigating contemporary responses to chytrid fungus.\n\n\n\n\n\n\nAug 23, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nControlling for DMSO\n\n\nAccounting for DMSO in biofilm studies.\n\n\n\n\n\n\nAug 17, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "fleayi-adult.html",
