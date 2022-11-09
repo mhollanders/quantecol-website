@@ -1,1 +1,1 @@
-Sitemap: https://mhollanders.github.io/quantecol-website/sitemap.xml
+Sitemap: https://quantecol.com.au/sitemap.xml
