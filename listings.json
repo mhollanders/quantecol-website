@@ -1,9 +1,9 @@
 [
   {
-    "listing": "/pages/portfolio.html",
+    "listing": "/portfolio.html",
     "items": [
-      "/pages/fleayi-adult.html",
-      "/pages/dmso.html"
+      "/fleayi-adult.html",
+      "/dmso.html"
     ]
   }
 ]
