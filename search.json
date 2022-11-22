@@ -60,7 +60,7 @@
     "href": "multievent.html",
     "title": "Novel multievent mark-recapture model",
     "section": "",
-    "text": "They found that infection prevalence was underestimated by \\(\\frac{1}{3}\\) while the rates of gaining and clearing infections were overestimated by factors of 4–5. This was largely due to the limited ability of swab samples to detect low-level infections of the chytrid fungus.\nThe research was published as an Open Access article in Methods in Ecology and Evolution, and includes code to simulate and analyse your own datasets in the Supporting Information and on GitHub."
+    "text": "They found that infection prevalence was underestimated by \\(\\frac{1}{3}\\) while the rates of gaining and clearing infections were overestimated by factors of 4–5 when state misclassification was not accounted for. This was largely due to the limited ability of swab samples to detect low-level infections of the chytrid fungus.\nThe research was published as an Open Access article in Methods in Ecology and Evolution, and includes code to simulate and analyse your own datasets in the Supporting Information and on GitHub."
   },
   {
     "objectID": "fleayi-adult.html",
