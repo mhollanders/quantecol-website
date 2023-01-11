@@ -1,0 +1,13 @@
+---
+title: Controlling for DMSO
+pagetitle: Quantecol - DMSO
+date: 2022-08-17
+image: img/dmso-thumb.jpg
+description: Accounting for DMSO in biofilm studies.
+---
+
+Kate Summer *et al.* recently published an open access manuscript in [*Biofilm*](https://doi.org/10.1016/j.bioflm.2022.100081), for which **Quantecol** conducted the statistical analysis. 
+
+The authors make a strong case for controlling for the effects of the solvent dimethyl-sulfoxide (DMSO) in biofilm studies. In addition to a literature review of 76 published studies, Summer conducted experiments on the bacteria *Streptococcus pneumoniae* and *Pseudomonas aeruginosa* to determine to what extent DMSO affected biofilm formation. We analysed the microbial activity and biofilm inhibition in these experiments using hormetic dose-response models.
+
+[![](img/dmso.jpg){width="61.8%"}](https://doi.org/10.1016/j.bioflm.2022.100081)

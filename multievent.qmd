@@ -1,0 +1,15 @@
+---
+title: Novel multievent mark-recapture model
+pagetitle: Quantecol - Multievent
+date: 2022-10-31
+image: img/posteriors-thumb.png
+description: Propagating state misclassification into ecological inference.
+---
+
+[Matthijs Hollanders](matthijs.qmd) and [Dr. J. Andrew Royle](https://www.usgs.gov/staff-profiles/andy-royle) recently developed a novel multievent mark-recapture model that accounts for infection state assignment errors. By estimating the false-negative and false-positive probabilities in the disease detection protocols, these errors can be propagated and accounted for while estimating the ecological process of interest. They used simulations and a case study with Fleay's barred frog (*Mixophyes fleayi*) infected with the amphibian chytrid fungus *Batrachochytrium dendrobatidis* as a case study.
+
+They found that infection prevalence was underestimated by $\frac{1}{3}$ while the rates of gaining and clearing infections were overestimated by factors of 4--5 when state misclassification was not accounted for. This was largely due to the limited ability of swab samples to detect low-level infections of the chytrid fungus.
+
+The research was published as an Open Access article in [*Methods in Ecology and Evolution*](https://doi.org/10.1111/2041-210X.13993), and includes code to simulate and analyse your own datasets in the Supporting Information and on [GitHub](https://github.com/mhollanders/multievent).
+
+[![](img/posteriors.png){width="61.8%"}](https://doi.org/10.1111/2041-210X.13993)

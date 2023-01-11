@@ -1,3 +1,7 @@
-# Contact
+---
+pagetitle: Quantecol - Contact
+---
 
-For inquiries about support with your projects, please get in touch *here* or call us at 0456659313.
+## Contact
+
+For inquiries about support with your projects, please get in touch via [e-mail](mailto:matt@quantecol.com.au) or call us at 0456 659 313.

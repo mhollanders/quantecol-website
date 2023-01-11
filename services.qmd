@@ -1,8 +1,10 @@
 ---
-title: Services
+pagetitle: Quantecol - Services
 ---
 
-We provide custom services tailored to the requirements of the client. This ranges from as simple as a brief consultation about methodology or analysis, to a report containing full data analysis, code, and results. What we offer is:
+## Services
+
+We provide custom services tailored to the requirements of the client. This ranges from brief consultations about methodology or analysis, to conducting full data analyses and scientific reporting. We offer:
 
   - Methodological guidance
   - Consultations about study design
@@ -11,17 +13,23 @@ We provide custom services tailored to the requirements of the client. This rang
   - Collaboration on research projects
   - Data and output visualisation
   
-We prefer to take a Bayesian approach because of the flexibility in building custom models, straightforward quantification of uncertainty, and to incorporate domain expertise when it is available. Our capabilities include, but are not limited to, the following statistical models:
+We prefer to take a Bayesian approach because of the flexibility in building custom models, straightforward quantification of uncertainty, and ability to incorporate domain expertise when available. Our capabilities include, but are not limited to, the following statistical models:
 
   - (Generalised) linear models
   - Power analysis
   - Multivariate analysis
   - Dose-response models
   - Ordinal regression
+  - Hidden Markov models
   - Item-response models
+  - Gaussian processes
   - Ecological models
     - Mark-recapture
     - Multievent
     - (Dynamic) occupancy, including co-occurrence
     - (Dynamic) *N*/multinomial-mixture
     - Spatial mark-recapture
+    - Distance sampling
+    - Species distribution models
+    
+If you are interested in working with Quantecol, please [get in touch](contact.qmd).

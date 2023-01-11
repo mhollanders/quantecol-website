@@ -1,26 +1,46 @@
 project:
   type: website
-  output-dir: docs
 
 website:
+  site-url: https://quantecol.com.au
   title: "Quantecol"
+  image: "img/Logo-Quantecol-RGB-FA-2-1000.png"
+  favicon: "img/Icon-Quantecol-RGB-FA-1-500.png"
+  twitter-card: true
+  open-graph: true
   navbar:
-    logo: img/logo.png
-    favicon: img/logo.png
+    title: false
+    logo: "img/Logo-Quantecol-RGB-FA-2-1000.png"
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - services.qmd
-      - contact.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Services"
+        href: services.qmd
+      - text: "Portfolio"
+        href: portfolio.qmd
+      - text: "About"
+        menu:
+          - text: "Our Vision"
+            href: vision.qmd
+          - text: "People"
+            href: matthijs.qmd
+          - text: "Contact Us"
+            href: contact.qmd
+    right:
+      - icon: twitter
+        href: https://twitter.com/realQuantecol
+      
   page-footer: 
-    center: "53 Bentinck Street, Ballina NSW, Australia | ABN: 90 710 874 314"
+    center: "Quantecol | 53 Bentinck Street, Ballina NSW, Australia | ABN: 90 710 874 314"
 
 format:
   html:
-    theme: flatly
+    theme: 
+      light: [flatly, custom.scss]
     css: styles.css
-    toc: true
+    toc: false
+  
+freeze: true
 
 
 

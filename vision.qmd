@@ -1,0 +1,7 @@
+---
+pagetitle: Quantecol - Vision
+---
+
+## Our Vision
+
+**Quantecol** is a statistical consulting firm started in 2022 with the vision of providing clients with robust study designs and rigorous data analysis. We understand that every dataset is unique, often requiring custom model configurations to disentangle the signals form the noise. Our view is that ethical scientific behaviour involves honest reporting of uncertainty to buffer against spurious conclusions, while simultaneously extracting as much as possible from our data. Our aim is to work collaboratively with a range of researchers to communicate research output with a high degree of confidence.

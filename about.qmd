@@ -1,17 +1,16 @@
 ---
-title: "About"
+title: About
+pagetitle: Quantecol - About
+about:
+  template: jolla
+  image: img/matthijs.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/realHollanders
+    - icon: github
+      text: Github
+      href: https://github.com/mhollanders
 ---
 
-**Quantecol** is a statistical consulting firm started in 2022 with the vision of providing clients with robust study designs and rigorous data analysis. We understand that every dataset is unique, often requiring custom model configurations to disentangle the signals form the noise. Our view is that ethical scientific behaviour involves honest reporting of uncertainty to buffer against spurious conclusions, while simultaneously extracting as much as possible from our data.
-
-### People
-
-::: {layout-ncol=2}
-
-#### Matthijs Hollanders
-
-Matthijs received Bachelor and Master's degrees in Biology from Wageningen University & Research, The Netherlands. A passion for quantitative methods was sparked during his PhD at Southern Cross University, Australia, where he investigated contemporary amphibian responses to the disease chytridiomycosis. Intrigued by the often noisy ecological datasets, he strives to account for uncertainty in datasets to make valid, honest scientific inference.
-
-![](img/matthijs.jpg){width=62%}
-
-:::
+**Matthijs Hollanders** received Bachelor and Master's degrees in Biology from Wageningen University & Research, The Netherlands. A passion for quantitative methods was sparked during his PhD at Southern Cross University, Australia, where he investigated contemporary amphibian responses to the disease chytridiomycosis. Intrigued by the often noisy ecological datasets, he strives to account for uncertainty in datasets to make valid, honest scientific inference.

@@ -1,0 +1,15 @@
+---
+title: Amphibian disease resistance
+pagetitle: Quantecol - Amphibian Resistance
+date: 2022-08-23
+image: img/fleayi-thumb.jpg
+description: Investigating contemporary responses to chytrid fungus.
+---
+
+[Matthijs Hollanders](matthijs.qmd) *et al.* conducted a four-year mark-recapture study on Fleay's barred frogs (*Mixophyes fleayi*) across three sites in northern New South Wales, Australia, to assess their current susceptibility to the amphibian disease chytridiomycosis. 
+
+The research was recently published as an open access article in [*Ecological Applications*](https://doi.org/10.1002/eap.2724), where they argue that this species shows hallmarks of the evolution of pathogen resistance. Using disease-structured multistate models incorporating individual pathogen loads measured during recapture events, they show that although some individuals likely succumb to the disease, overall mortality was low and frogs were much more likely to clear their infections than to gain them. Good news!
+
+This research was featured in [The Conversation](https://theconversation.com/a-deadly-disease-has-driven-7-australian-frogs-to-extinction-but-this-endangered-frog-is-fighting-back-189491) and [ABC News](https://www.abc.net.au/news/2022-10-06/native-frog-species-fights-deadly-fungus-nsw-qld/101503242).
+
+[![](img/fleayi.jpg){width="61.8%"}](https://doi.org/10.1002/eap.2724)
