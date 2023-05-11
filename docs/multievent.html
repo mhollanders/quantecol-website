@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-10-31">
+<meta name="description" content="Propagating state misclassification into ecological inference.">
 
-<title>Quantecol - About</title>
+<title>Quantecol - Multievent</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -59,14 +62,21 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Quantecol - About">
-<meta property="og:description" content="Matthijs Hollanders received Bachelor and Master’s degrees in Biology from Wageningen University &amp; Research, The Netherlands.">
+<meta property="og:title" content="Quantecol - Multievent">
+<meta property="og:description" content="Propagating state misclassification into ecological inference.">
+<meta property="og:image" content="https://quantecol.com.au/img/posteriors-thumb.png">
 <meta property="og:site-name" content="Quantecol">
-<meta name="twitter:title" content="Quantecol - About">
-<meta name="twitter:description" content="Matthijs Hollanders received Bachelor and Master’s degrees in Biology from Wageningen University &amp; Research, The Netherlands.">
-<meta name="twitter:card" content="summary">
+<meta property="og:image:height" content="2147">
+<meta property="og:image:width" content="2682">
+<meta name="twitter:title" content="Quantecol - Multievent">
+<meta name="twitter:description" content="Propagating state misclassification into ecological inference.">
+<meta name="twitter:image" content="https://quantecol.com.au/img/posteriors-thumb.png">
+<meta name="twitter:image-height" content="2147">
+<meta name="twitter:image-width" content="2682">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -135,33 +145,48 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="img/matthijs.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Novel multievent mark-recapture model</h1>
 </div>
-<div class="quarto-title-meta">
+
+<div>
+  <div class="description">
+    Propagating state misclassification into ecological inference.
   </div>
-</header><main class="content" id="quarto-document-content">
-<p><strong>Matthijs Hollanders</strong> received Bachelor and Master’s degrees in Biology from Wageningen University &amp; Research, The Netherlands. A passion for quantitative methods was sparked during his PhD at Southern Cross University, Australia, where he investigated contemporary amphibian responses to the disease chytridiomycosis. Intrigued by the often noisy ecological datasets, he strives to account for uncertainty in datasets to make valid, honest scientific inference.</p>
+</div>
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com/realHollanders" class="about-link">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">twitter</span>
-  </a>
-  <a href="https://github.com/mhollanders" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 31, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><a href="./matthijs.html">Matthijs Hollanders</a> and <a href="https://www.usgs.gov/staff-profiles/andy-royle">Dr.&nbsp;J. Andrew Royle</a> recently developed a novel multievent mark-recapture model that accounts for infection state assignment errors. By estimating the false-negative and false-positive probabilities in the disease detection protocols, these errors can be propagated and accounted for while estimating the ecological process of interest. They used simulations and a case study with Fleay’s barred frog (<em>Mixophyes fleayi</em>) infected with the amphibian chytrid fungus <em>Batrachochytrium dendrobatidis</em> as a case study.</p>
+<p>They found that infection prevalence was underestimated by <span class="math inline">\(\frac{1}{3}\)</span> while the rates of gaining and clearing infections were overestimated by factors of 4–5 when state misclassification was not accounted for. This was largely due to the limited ability of swab samples to detect low-level infections of the chytrid fungus.</p>
+<p>The research was published as an Open Access article in <a href="https://doi.org/10.1111/2041-210X.13993"><em>Methods in Ecology and Evolution</em></a>, and includes code to simulate and analyse your own datasets in the Supporting Information and on <a href="https://github.com/mhollanders/multievent">GitHub</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://doi.org/10.1111/2041-210X.13993"><img src="img/posteriors.png" class="img-fluid figure-img" style="width:61.8%"></a></p>
+</figure>
 </div>
-</div>
- <!-- /main -->
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -182,6 +207,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;

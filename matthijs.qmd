@@ -1,6 +1,6 @@
 ---
 pagetitle: Quantecol - People
-title: Matthijs Hollanders
+title: Dr. Matthijs Hollanders
 about:
   template: jolla
   image: img/matthijs.jpg
@@ -13,4 +13,4 @@ about:
       href: https://twitter.com/realHollanders
 ---
 
-Matthijs received Bachelor and Master's degrees in Biology from Wageningen University & Research, The Netherlands. A passion for quantitative methods was sparked during his PhD at Southern Cross University, Australia, where he investigated contemporary amphibian responses to the disease chytridiomycosis. Intrigued by the often noisy ecological datasets, he strives to account for uncertainty in datasets to make valid, honest scientific inference.
+Matthijs received Bachelor and Master's degrees in Biology from Wageningen University & Research, The Netherlands, and was awarded his doctorate from Southern Cross University, Australia, in 2023. A passion for quantitative methods was sparked during his PhD at SCU where he investigated contemporary amphibian responses to the disease chytridiomycosis. Intrigued by the often noisy ecological datasets, he strives to account for uncertainty in datasets to make valid, honest scientific inference.

@@ -2,36 +2,64 @@
   {
     "objectID": "services.html",
     "href": "services.html",
-    "title": "Services",
+    "title": "Quantecol",
     "section": "",
-    "text": "Methodological guidance\nConsultations about study design\nValidation of statistical analysis\nTutorials and workshops for specific statistical methods\nCollaboration on research projects\nData and output visualisation\n\nWe prefer to take a Bayesian approach because of the flexibility in building custom models, straightforward quantification of uncertainty, and to incorporate domain expertise when it is available. Our capabilities include, but are not limited to, the following statistical models:\n\n(Generalised) linear models\nPower analysis\nMultivariate analysis\nDose-response models\nOrdinal regression\nItem-response models\nEcological models\n\nMark-recapture\nMultievent\n(Dynamic) occupancy, including co-occurrence\n(Dynamic) N/multinomial-mixture\nSpatial mark-recapture"
+    "text": "We provide custom services tailored to the requirements of the client. This ranges from brief consultations about methodology or analysis, to conducting full data analyses and scientific reporting. We offer:\n\nMethodological guidance\nConsultations about study design\nValidation of statistical analysis\nTutorials and workshops for specific statistical methods\nCollaboration on research projects\nData and output visualisation\n\nWe prefer to take a Bayesian approach because of the flexibility in building custom models, straightforward quantification of uncertainty, and ability to incorporate domain expertise when available. Our capabilities include, but are not limited to, the following statistical models:\n\n(Generalised) linear models\nPower analysis\nMultivariate analysis\nDose-response models\nOrdinal regression\nHidden Markov models\nItem-response models\nGaussian processes\nEcological models\n\nMark-recapture\nMultievent\n(Dynamic) occupancy, including co-occurrence\n(Dynamic) N/multinomial-mixture\nSpatial mark-recapture\nDistance sampling\nSpecies distribution models\n\n\nIf you are interested in working with Quantecol, please get in touch."
+  },
+  {
+    "objectID": "matthijs.html",
+    "href": "matthijs.html",
+    "title": "Dr. Matthijs Hollanders",
+    "section": "",
+    "text": "Matthijs received Bachelor and Master’s degrees in Biology from Wageningen University & Research, The Netherlands, and was awarded his doctorate from Southern Cross University, Australia, in 2023. A passion for quantitative methods was sparked during his PhD at SCU where he investigated contemporary amphibian responses to the disease chytridiomycosis. Intrigued by the often noisy ecological datasets, he strives to account for uncertainty in datasets to make valid, honest scientific inference."
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Quantecol",
     "section": "",
-    "text": "For inquiries about support with your projects, please get in touch here or call us at 0456659313."
+    "text": "For inquiries about support with your projects, please get in touch via e-mail or call us at 0456 659 313."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Quantecol",
     "section": "",
-    "text": "Study design and methodology\nData forms the foundation of scientific studies, but not all data are created equal. Statistical models make non-trivial assumptions about how the data were collected, which will influence the validity of your conclusions. We can provide you with study designs tailored to your system, including sample sizes, surveying schemes, and more.\n\n\nData analysis\nYour datasets often contain a wealth of information, but bespoke models are frequently required to reveal these signals. We can help you with this process, ranging from tutorials and workshops for applying statistical methodology, to conducting the entire analysis for you in a clear, collaborative fashion.\n\n\n\nVisualisation and reporting\nCommunication of key results derived from our data is what advances scientific fields, but we are experiencing a replication crisis. We believe that honest reporting involves a proper display of uncertainty and does not hide the raw data. The services we offer are predicated on transparency and scientific integrity."
+    "text": "Quantecol offers a range of methodological and analytical services for efficient, effective, and honest scientific inference.\n\n\nData forms the foundation of scientific studies, but not all data are created equal. Statistical models make non-trivial assumptions about how the data were collected, which will influence the validity of your conclusions. We can provide you with study designs tailored to your system, including sample sizes, surveying schemes, and more.\n\n\n\nYour datasets often contain a wealth of information, but bespoke models are frequently required to reveal these signals. We can help you with this process, ranging from tutorials and workshops for applying statistical methodology, to conducting the entire analysis for you in a clear, collaborative fashion.\n\n\n\n\nCommunication of key results derived from our data is what advances scientific fields, but we are experiencing a replication crisis. We believe that honest reporting involves a proper display of uncertainty and does not hide the raw data. The services we offer are predicated on transparency and scientific integrity."
+  },
+  {
+    "objectID": "vision.html",
+    "href": "vision.html",
+    "title": "Quantecol",
+    "section": "",
+    "text": "Quantecol is a statistical consulting firm started in 2022 with the vision of providing clients with robust study designs and rigorous data analysis. We understand that every dataset is unique, often requiring custom model configurations to disentangle the signals form the noise. Our view is that ethical scientific behaviour involves honest reporting of uncertainty to buffer against spurious conclusions, while simultaneously extracting as much as possible from our data. Our aim is to work collaboratively with a range of researchers to communicate research output with a high degree of confidence."
+  },
+  {
+    "objectID": "dmso.html",
+    "href": "dmso.html",
+    "title": "Controlling for DMSO",
+    "section": "",
+    "text": "Kate Summer et al. recently published an open access manuscript in Biofilm, for which Quantecol conducted the statistical analysis.\nThe authors make a strong case for controlling for the effects of the solvent dimethyl-sulfoxide (DMSO) in biofilm studies. In addition to a literature review of 76 published studies, Summer conducted experiments on the bacteria Streptococcus pneumoniae and Pseudomonas aeruginosa to determine to what extent DMSO affected biofilm formation. We analysed the microbial activity and biofilm inhibition in these experiments using hormetic dose-response models."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "People\n\n\n\nMatthijs Hollanders\nMatthijs received Bachelor and Master’s degrees in Biology from Wageningen University & Research, The Netherlands. A passion for quantitative methods was sparked during his PhD at Southern Cross University, Australia, where he investigated contemporary amphibian responses to the disease chytridiomycosis. Intrigued by the often noisy ecological datasets, he strives to account for uncertainty in datasets to make valid, honest scientific inference."
+    "text": "Matthijs Hollanders received Bachelor and Master’s degrees in Biology from Wageningen University & Research, The Netherlands. A passion for quantitative methods was sparked during his PhD at Southern Cross University, Australia, where he investigated contemporary amphibian responses to the disease chytridiomycosis. Intrigued by the often noisy ecological datasets, he strives to account for uncertainty in datasets to make valid, honest scientific inference."
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "multievent.html",
+    "href": "multievent.html",
+    "title": "Novel multievent mark-recapture model",
     "section": "",
-    "text": "Matthijs received Bachelor and Master’s degrees in Biology from Wageningen University & Research, the Netherlands. A passion for quantitative methods was sparked during his PhD at Southern Cross University, Australia, where he investigated contemporary amphibian responses to the disease chytridiomycosis."
+    "text": "Matthijs Hollanders and Dr. J. Andrew Royle recently developed a novel multievent mark-recapture model that accounts for infection state assignment errors. By estimating the false-negative and false-positive probabilities in the disease detection protocols, these errors can be propagated and accounted for while estimating the ecological process of interest. They used simulations and a case study with Fleay’s barred frog (Mixophyes fleayi) infected with the amphibian chytrid fungus Batrachochytrium dendrobatidis as a case study.\nThey found that infection prevalence was underestimated by \\(\\frac{1}{3}\\) while the rates of gaining and clearing infections were overestimated by factors of 4–5 when state misclassification was not accounted for. This was largely due to the limited ability of swab samples to detect low-level infections of the chytrid fungus.\nThe research was published as an Open Access article in Methods in Ecology and Evolution, and includes code to simulate and analyse your own datasets in the Supporting Information and on GitHub."
+  },
+  {
+    "objectID": "fleayi-adult.html",
+    "href": "fleayi-adult.html",
+    "title": "Amphibian disease resistance",
+    "section": "",
+    "text": "Matthijs Hollanders et al. conducted a four-year mark-recapture study on Fleay’s barred frogs (Mixophyes fleayi) across three sites in northern New South Wales, Australia, to assess their current susceptibility to the amphibian disease chytridiomycosis.\nThe research was recently published as an open access article in Ecological Applications, where they argue that this species shows hallmarks of the evolution of pathogen resistance. Using disease-structured multistate models incorporating individual pathogen loads measured during recapture events, they show that although some individuals likely succumb to the disease, overall mortality was low and frogs were much more likely to clear their infections than to gain them. Good news!\nThis research was featured in The Conversation and ABC News."
   }
 ]
